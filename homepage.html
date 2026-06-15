@@ -1,0 +1,371 @@
+
+<!-- homepage.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <title>Sarajevan Department of Lost Correspondence</title>
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Department of Lost Correspondence</h1>
+
+    <p>Postal Department Archive No. 4 — unofficial records recovered from the siege.</p>
+
+  </header>
+
+  <nav>
+
+    <a href="homepage.html">Front Desk.</a>
+
+    <a href="archive.html">Archive.</a>
+
+    <a href="gallery.html">Gallery.</a>
+
+    <a href="registry.html">Registry.</a>
+
+  </nav>
+
+  
+      <div class="banner-wrapper">  
+        <img
+          src="images/1000111658.jpg"
+          alt="example image"
+        >
+      </div>
+
+    
+
+  <div class="main-layout">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+      <div class="note-box">
+
+        <h2>Quote.</h2>
+
+        <p>"You may not be interested in war but war is interested in you."<br>
+        — Leon Trotsky</p>
+
+      </div>
+
+      <div class="note-box">
+
+        <h2>Stories.</h2>
+              
+      <p>
+        "The city kept moving as though nothing had happened.
+      </p>
+
+      <img
+      src="images/candle1.jpg"
+      class="article-image"
+      />
+
+      <p>
+        Maybe that's the strangest part of war.
+        Not the violence.
+        The silence afterward.
+      </p>
+
+      <img
+      src="images/candle2.jpg"
+      class="article-image"
+      />
+
+      <p>
+       Some things survive only because someone remembers them." <br><br>
+       — Unknown
+      </p>
+
+
+      </div>
+
+      <div class="note-box">
+
+        <h2>Links.</h2>
+
+        <ul>
+
+          <li><a href="archive.html">The Archive.</a></li>
+
+          <li><a href="gallery.html">The Gallery.</a></li>
+
+          <li><a href="registry.html">The Registry.</a></li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="content">
+
+      <h2>Hello there, traveller.</h2>
+
+      <p>
+        What are you doing here?<br>
+You must be lost.<br>
+That's quite alright.<br>
+Everyone who comes here usually is, even if they believe they aren't.<br><br>
+
+Oh, you want to know where you are?<br><br>
+
+This is the Front Desk for the Sarajevan Department of Lost Correspondence.<br>
+A place for all the things they lost during the siege.<br><br>
+
+My name?<br><br>
+
+Around here, they simply call me the Keeper.<br><br>
+
+I catalogue the things people abandoned.<br>
+The things they, perhaps, lost on purpose.<br>
+The things they now pretend never existed.<br><br>
+
+Letters.<br>
+Photographs.<br>
+Diary entries.<br>
+Pages torn from books.<br>
+Unsent confessions.<br>
+Fragments of lives that were never meant to survive.<br><br>
+
+Are you looking for a letter?<br>
+Although, most are covered in annotations, or handwritten, making them quite hard to read, you can find them in the archive, it's the next door down.<br><br>
+
+Or maybe a photograph?<br>
+I have many of those as well.<br>
+They're in the gallery, across from the archive.<br><br>
+
+...Or perhaps you're looking for someone?<br><br>
+
+Someone you've lost, and are perhaps hoping to find again.<br>
+You might have some luck in the registry, a little bit further down, on your right.<br><br>
+
+But before you go any further, dear traveller,<br>
+I should warn you.<br><br>
+
+Most of what arrives here was never meant to be found.<br><br>
+
+Not read.<br>
+Not seen.<br>
+Not remembered.<br><br>
+
+These things were meant to disappear quietly beneath everything else.<br>
+Buried under noise.<br>
+Buried under history.<br>
+Buried under people choosing to forget.<br><br>
+
+Or at least that's what they want to happen.<br><br>
+
+So be careful while you're here.<br>
+You may find something you wish you hadn't.<br>
+Something uncomfortable.<br>
+Something a bit too human.<br><br>
+
+But if you do,<br>
+don't say I didn't warn you.<br><br>
+
+Good luck, traveller.<br><br>
+
+And welcome to the Sarajevan Department of Lost Correspondence.
+      </p>
+
+    </main>
+
+  </div>
+
+  
+  
+  <div class="banner-wrapper">
+        <img
+          src="images/1000111658.jpg"
+          alt=""
+          class="article-banner"
+        />
+      </div>
+
+      
+  <div class="container">
+
+    <h1 id="comments-title">
+      Annotations and Comments.
+    </h1>
+
+    <p class="comments-warning">
+      Please note that all comments are moderated by the Keeper, and may not be published if they contain inappropriate content or violate the guidelines. The Keeper reserves the right to remove any comments that are deemed inappropriate or offensive. By submitting a comment, you agree to abide by these guidelines and understand that your comment may be subject to moderation.
+    </p>
+
+    <div id="comments"></div>
+   
+
+    <div class="input-area">
+
+      <input
+        id="Name"
+        placeholder="Your name..."
+      >
+
+      <input
+        id="Message"
+        placeholder="Write an annotation or comment..."
+      >
+
+      <button id="send">
+        Send
+      </button>
+
+      
+
+    </div>
+
+     
+<div class="subtitle">
+  <p>
+    
+  </p>
+</div>
+
+
+  <div class="banner-wrapper">
+        <img
+          src="images/1000111658.jpg"
+          alt=""
+          class="article-banner"
+        />
+      </div>
+
+
+
+  <footer>
+
+    © Written, coded and thought out by Adya Verma ~ The Keeper.
+
+  </footer>
+
+  <script type="module">
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  onSnapshot,
+  query,
+  orderBy,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCOZWHzJ3EZld5d7ZsPibwZU4vRF9LoBR0",
+  authDomain: "thecellistofsarajevo.firebaseapp.com",
+  projectId: "thecellistofsarajevo",
+  storageBucket: "thecellistofsarajevo.firebasestorage.app",
+  messagingSenderId: "418217234417",
+  appId: "1:418217234417:web:887add2dbead43d844be50",
+  measurementId: "G-7GESEGD9YE"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+window.addEventListener("DOMContentLoaded", () => {
+
+  const commentsDiv = document.getElementById("comments");
+  const sendBtn = document.getElementById("send");
+
+  const nameInput = document.getElementById("Name");
+  const messageInput = document.getElementById("Message");
+
+  
+  const PAGE = "homepage"; 
+  
+
+  sendBtn.addEventListener("click", async () => {
+
+    const name = nameInput.value.trim();
+    const message = messageInput.value.trim();
+
+    if (!name || !message) return;
+
+    sendBtn.disabled = true;
+    const originalText = sendBtn.textContent;
+    sendBtn.textContent = "Sending...";
+
+    try {
+      await addDoc(collection(db, "comments"), {
+        page: PAGE,
+        name,
+        message,
+        createdAt: serverTimestamp()
+      });
+
+      nameInput.value = "";
+      messageInput.value = "";
+
+    } catch (error) {
+      console.error(error);
+    }
+
+    sendBtn.disabled = false;
+    sendBtn.textContent = originalText;
+
+  });
+
+  const q = query(
+    collection(db, "comments"),
+    orderBy("createdAt", "desc")
+  );
+
+  onSnapshot(q, (snapshot) => {
+
+    commentsDiv.innerHTML = "";
+
+    snapshot.forEach((doc) => {
+      const data = doc.data();
+
+      if (data.page !== PAGE) return;
+
+      const div = document.createElement("div");
+      div.className = "comment";
+
+      div.innerHTML = `
+        <strong></strong>
+        <p></p>
+      `;
+
+      div.querySelector("strong").textContent = data.name;
+      div.querySelector("p").textContent = data.message;
+
+      commentsDiv.appendChild(div);
+    });
+
+  });
+
+});
+
+</script>
+
+</body>
+
+</html>
