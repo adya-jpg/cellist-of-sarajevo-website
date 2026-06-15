@@ -35,7 +35,7 @@ This archive was originally created as a school project.
 
 It is significantly more elaborate than was ever required.
 
-And yes it is a real website on Google.
+And yes it is a real website on Google, coded from scratch.
 
 ## Languages I Used
 
